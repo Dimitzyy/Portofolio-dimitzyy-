@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Dimitzyy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Dimitzyy</title>
+  <!-- Hubungkan CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
     <h1>Halo, Saya Dimitzyy</h1>
-    <p>Saya mengembangkan website sederhana, aplikasi inventaris, dan landing page untuk UMKM.</p>
+    <p>Saya mengembangkan website sederhana dengan HTML, CSS, dan JavaScript.</p>
+  </header>
+
+  <section class="projects">
+    <h2>Proyek Saya</h2>
+    <div class="project-card">
+      <h3>Website Toko Online</h3>
+      <p>Dibuat menggunakan HTML, CSS, dan JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Portofolio Pribadi</h3>
+      <p>Portofolio ini dibuat dengan HTML dan CSS.</p>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Kontak Saya</h2>
+    <p>📧 Email: dimitzyy@example.com</p>
+    <p>🔗 GitHub: <a href="https://github.com/Dimitzyy">Dimitzyy</a></p>
+  </footer>
 </body>
 </html>
